@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--bg);
+  --color-text: var(--text);
+}
+
+:root {
+  --bg: hsl(0, 0%, 100%);
+  --text: hsl(0, 0%, 0%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(0, 0%, 9%);
+    --text: hsl(0, 0%, 95%);
+  }
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
