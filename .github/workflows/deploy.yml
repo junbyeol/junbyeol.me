@@ -2,11 +2,11 @@ name: Docker Build and Deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/garage-template-web
+  IMAGE_NAME: ${{ github.repository_owner }}/junbyeol-me
   DEPLOY_PATH: "~/first-garage-machine/infra"
 
 jobs:
@@ -54,8 +54,8 @@ jobs:
 
             cd ${{ env.DEPLOY_PATH }}
 
-            docker compose pull garage-template-web
-            docker compose up -d garage-template-web
+            docker compose pull junbyeol-me
+            docker compose up -d junbyeol-me
 
             # 오래된 이미지 정리
             docker image prune -f
