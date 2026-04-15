@@ -8,11 +8,11 @@ import icon_resume from "../assets/icon_resume.png";
 const Home = () => {
   return (
     <section>
-      <div className="relative px-8 pt-[12px] md:px-32 flex flex-col gap-[48px]">
+      <div className="relative px-4 pt-[12px] md:px-32 flex flex-col md:gap-[48px]">
         <img
           src={white_logo}
           alt="logo"
-          className="absolute right-0 w-[279px] z-0"
+          className="absolute md:top-0 top-32 right-0 w-[140px] md:w-[279px] z-0"
         />
         <div className="flex gap-[12px] md:gap-[36px] flex-col md:flex-row">
           <img
@@ -31,7 +31,7 @@ const Home = () => {
             </h2>
           </div>
         </div>
-        <div className="flex gap-[12px] md:gap-[60px] mt-[24px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-[12px] md:gap-[60px] mt-[24px]">
           <LinkCard
             key={"github"}
             img={icon_github}
@@ -78,7 +78,7 @@ function LinkCard({ img, link, bold_label, regular_label }: LinkCardProps) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-[120px] py-[8px] md:w-[240px] md:h-[120px] bg-[#D9D9D9]/50 rounded-[8px] flex flex-col justify-center items-center hover:bg-[#D9D9D9]/60 transition-colors"
+      className="w-full aspect-square md:aspect-auto md:h-[120px] py-[8px] bg-[#D9D9D9]/50 rounded-[8px] flex flex-col justify-center items-center hover:bg-[#D9D9D9]/60 transition-colors"
     >
       <img
         src={img}
