@@ -1,5 +1,4 @@
 import profile_me from "../assets/profile_me.png";
-import white_logo from "../assets/white_logo.png";
 import icon_github from "../assets/icon_github.png";
 import icon_linkedin from "../assets/icon_linkedin.png";
 import icon_blog from "../assets/icon_blog.png";
@@ -9,11 +8,6 @@ const Home = () => {
   return (
     <section>
       <div className="relative px-4 pt-[12px] md:px-32 flex flex-col md:gap-[48px]">
-        <img
-          src={white_logo}
-          alt="logo"
-          className="absolute md:top-0 top-32 right-0 w-[140px] md:w-[279px] z-0"
-        />
         <div className="flex gap-[12px] md:gap-[36px] flex-col md:flex-row">
           <img
             src={profile_me}
