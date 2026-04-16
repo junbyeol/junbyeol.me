@@ -40,7 +40,7 @@ const PROJECTS: Project[] = [
   {
     name: "KNAPS 공식 페이지",
     description:
-      "한국약학대학생연합(KNAPS)의 공식 페이지와 어드민 페이지를 외주 개발. 해당 단체의 구글 계정 소유의 GCP에서 호스팅 및 유 지보수 중",
+      "한국약학대학생연합(KNAPS)의 공식 페이지와 어드민 페이지를 외주 개발. 해당 단체의 구글 계정 소유의 GCP에서 호스팅 및 유지보수 중",
     status: "active",
     link: "https://knaps.or.kr",
   },
