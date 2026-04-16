@@ -35,7 +35,7 @@ const About = () => {
   };
 
   return (
-    <section className="px-8 py-8 md:px-32 md:py-12">
+    <section className="px-2 py-8 md:px-32 md:py-12">
       <div className="flex border-b-[3px] border-text">
         {TABS.map(({ id, label }) => (
           <button
