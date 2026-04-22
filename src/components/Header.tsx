@@ -11,7 +11,6 @@ const NAV_ITEMS: NavItem[] = [
   { label: "저장소", to: "/archive" },
   { label: "블로그↗", href: "https://blog.junbyeol.me" },
   { label: "이력서↗", href: "https://resume.junbyeol.me" },
-  { label: "방명록", to: "/guestbook" },
 ];
 
 const Header = () => {
