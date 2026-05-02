@@ -102,8 +102,8 @@ const HowTab = () => {
             </p>
             <p className="text-base leading-relaxed text-text/80">
               해당 게이트웨이는 <B>Nginx</B> 컨테이너이며, 요청의 내용에 따라
-              요청을 적절한 내부 컨테이너로 <B>포워딩</B>하거나 외부 사이트로
-              <B>리다이렉션</B> 합니다.
+              요청을 적절한 내부 컨테이너로 <B>포워딩</B>하거나 외부 사이트로{" "}
+              <B>리다이렉션</B>합니다.
             </p>
             <p className="text-base leading-relaxed text-text/80">
               하나의 <B>VM</B>, 하나의 <B>게이트웨이</B>를 이용하는 것은 아래의
