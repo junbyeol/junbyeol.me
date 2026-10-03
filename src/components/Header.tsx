@@ -7,7 +7,7 @@ type NavItem = {
 };
 
 const NAV_ITEMS: NavItem[] = [
-  { label: "여긴어디?", to: "/about" },
+  // { label: "여긴어디?", to: "/about" },
   { label: "저장소", to: "/archive" },
   { label: "블로그↗", href: "https://blog.junbyeol.me" },
   { label: "이력서↗", href: "https://resume.junbyeol.me" },
